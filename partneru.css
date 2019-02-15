@@ -1,0 +1,225 @@
+.head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 80spx;
+}
+
+.head_div_fr div {
+    display: block;
+}
+
+.head_div_fr h1 {
+    margin: auto;
+    padding-top: 30px;
+    color: white;
+    font-weight: 300;
+    font-family: sans-serif
+}
+
+.head_div_fr p {
+    margin: auto;
+    color: white;
+}
+
+.head_div_fr b {
+    font-weight: 600
+}
+
+.head_div_sc {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end
+}
+
+.menu {
+    margin-top: 20px;
+    margin-bottom: 100px;
+    background: rgba(42, 43, 43, 0.7);
+    height: 45px;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+}
+
+.menu ul {
+    padding: 0;
+    margin: 0;
+    display: table;
+}
+
+.menu li {
+    display: table-cell;
+    background-color: ;
+    text-align: center;
+    position: relative;
+}
+
+.menu a {
+    color: cornflowerblue;
+    text-decoration: none;
+    height: 20px;
+    display: inline-block;
+    border: 1px inset transparent;
+    border-radius: 6px;
+    padding: 5px 15px;
+    line-height: 20px;
+    width: auto;
+    text-transform: uppercase;
+    margin-left: 15px;
+    margin-top: 9px;
+    font-size: 12px;
+    font-family: monospace;
+}
+
+.menu a:hover {
+    background-color: midnightblue;
+    border: 1px inset black;
+    border-radius: 6px;
+}
+
+.main_box {
+    width: 790px;
+    background: rgba(42, 43, 43, 1);
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main_box_left {
+    width: 480px;
+}
+
+.main_box em,
+p {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 11px;
+    color: beige;
+    margin: auto;
+}
+
+.main_box h3 {
+    margin: auto;
+    padding-top: 12px;
+    padding-bottom: 8px;
+    color: skyblue;
+    font-size: 23px
+}
+
+.main_box img {
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    padding: 6px;
+    padding-bottom: 10px;
+    background: rgba(31, 28, 28, 1);
+    float: left;
+    margin: 7px 8px 7px 0;
+}
+
+.main_box span {
+    color: dimgrey;
+    padding:
+}
+
+.main_box a {
+    background: rgba(31, 29, 29, 1);
+    color: grey;
+    border-radius: 7px;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.button {
+    margin: 20px 0 0 350px;
+}
+
+.button a:hover {
+    color: aliceblue
+}
+
+.main_box_top a:hover {
+    color: aliceblue
+}
+
+.space {
+    width: 100%;
+    background-color: black;
+    padding: 1px 0;
+    margin: 40px 0 20px 0 ;
+}
+
+.footer div {
+    display: flex;
+    justify-content: center
+}
+
+.footer {
+    color: white;
+    font-size: 13px;
+    margin: auto;
+}
+
+a.rollower_1 {
+    background: url(../images/flashmo.png);
+    display: block;
+    width: 120px;
+    height: 12px
+}
+
+a.rollower_1:hover {
+    background: url(../images/flashmo_hover.png)
+}
+
+a.rollower_2 {
+    background: url(../images/koflash.png);
+    display: block;
+    width: 118px;
+    height: 11px
+}
+
+a.rollower_2:hover {
+    background: url(../images/koflash_hover.png)
+}
+
+a.rollower_3 {
+    background: url(../images/layermo.png);
+    display: block;
+    width: 126px;
+    height: 15px
+}
+
+a.rollower_3:hover {
+    background: url(../images/layermo_hover.png)
+}
+
+a.rollower_4 {
+    background: url(../images/webdesignmo.png);
+    display: block;
+    width: 171px;
+    height: 20px
+}
+
+a.rollower_4:hover {
+    background: url(../images/webdesignmo_hover.png)
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 125px;
+    width: 450px
+}
+
+.main_box_right {
+    padding-left: 40px
+}
+
+.main_box_right ol{
+    list-style-image:url(../images/list.png)
+}
+
+.main_box_right li{
+    margin-top: 13px;
+    font-size: 16px;
